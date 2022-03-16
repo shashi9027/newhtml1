@@ -102,8 +102,96 @@
       font-size: 1rem !important;
       font-weight: 500 !important;
     }
+    .heimg{
+      width:56px;
+      height:56px;
+    }
+  }
+  @media only screen and (max-width:920px)
+  {
+    .neighbour-name{
+      font-size: 1.6rem !important;
+    }
+    .province-text{
+      font-size:1.6rem !important;
+    }
+    .text-f-6{
+      font-size: .9rem !important ;
+    }
+    .heimg{
+      width:52px;
+      height:52px;
+    }
+  }
+  @media only screen and (max-width:828px)
+  {
+    .himg{
+      width:80px;
+      height:50px;
+    }
+    .neighbour-name{
+      font-size: 1.5rem !important;
+    }
+    .province-text{
+      font-size:1.5rem !important;
+    }
+    .text-f-6{
+      font-size: .8rem !important ;
+    }
+    .heimg{
+      width:48px;
+      height:48px;
+    }
+
+  }
+  @media only screen and (max-width:745px)
+  {
+    .himg{
+      width:70px;
+      height:40px;
+    }
+    .neighbour-name{
+      font-size: 1.4rem !important;
+    }
+    .province-text{
+      font-size:1.4rem !important;
+    }
+    .text-f-6{
+      font-size: .7rem !important ;
+    }
+    .heimg{
+      width:44px;
+      height:44px;
+    }
+
+  }
+  @media only screen and (max-width:694px)
+  {
+    
+    .neighbour-name{
+      width:50%;
+      margin-left: 2em;
+    }
+    .province-text{
+     width:30%
+    }
+   
+  }
+  @media only screen and (max-width:674px)
+  {
+    
+    .neighbour-name{
+      
+      margin-left: 1em;
+    }
+    .province-text{
+     width:30%
+    }
+   
   }
 
+
+  
 
   /*overview card */
 
