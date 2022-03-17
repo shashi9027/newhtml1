@@ -1080,7 +1080,7 @@
         font-size: 0.6rem;
         color: var(--color-charcoal-light-25);
       }
-      @media only screen and (max-width:1115px){
+      @media only screen and (max-width:1700px){
           .phar{
             margin-left:5% !important;
             
@@ -1241,7 +1241,7 @@
       .color-75{
         color:var(--color-charcoal-light-50)
       }
-      @media only screen and (max-width:1107px){
+      @media only screen and (max-width:1700px){
       
         .smain-text{
           font-size: 1.6rem !important;
@@ -1296,11 +1296,102 @@
          .pdfHeight{
            min-width:14rem;
          }
-         
-         
       }
 
+      @media only screen and (max-width:972px)
+      {
+        
+        .rese{
+           width: 46%!important;
+        }
+        .pdfHeight{
+          min-width:13rem;
+        }
+        .fr{
+            font-size: 1.3rem !important;
+        }
+        .frs{
+            font-size:1.2rem !important;
+        }
+        .frf{
+           font-size:1rem !important;
+        }
+        .frsf{
+           font-size: .7rem !important;
+        }
+        .frsft{
+            font-size: .8rem !important;
+        }
+        .stf{
+          font-size: .5rem !important;
+        }
+     }
+     @media only screen and (max-width:869px)
+     {
        
+       .rese{
+          width: 45%!important;
+       }
+       .pdfHeight{
+         min-width:13rem;
+       }
+       .fr{
+           font-size: 1.2rem !important;
+       }
+       .frs{
+           font-size:1.1rem !important;
+       }
+       .frf{
+          font-size:.9rem !important;
+       }
+       .frsf{
+          font-size: .6rem !important;
+       }
+       .frsft{
+           font-size: .7rem !important;
+       }
+       .stf{
+         font-size: .4rem !important;
+       }
+    }
+     
+    @media only screen and (max-width:901px)
+    {
+      
+      .rese{
+         width: 45%!important;
+      }
+      .resed{
+        width:18% !important;
+      }
+      .res{
+        margin-left:2rem !important;
+      }
+      .pdfHeight{
+        min-width:13rem;
+      }
+      .fr{
+          font-size: 1.2rem !important;
+      }
+      .frs{
+          font-size:1.1rem !important;
+      }
+      .frf{
+         font-size:.9rem !important;
+      }
+      .frsf{
+         font-size: .6rem !important;
+      }
+      .frsft{
+          font-size: .7rem !important;
+      }
+      .stf{
+        font-size: .4rem !important;
+      }
+   }
+
+
+      
 
          
      
