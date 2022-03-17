@@ -1333,7 +1333,7 @@
           width: 45%!important;
        }
        .pdfHeight{
-         min-width:13rem;
+         min-width:11rem !important;
        }
        .fr{
            font-size: 1.2rem !important;
@@ -1355,6 +1355,7 @@
        }
     }
      
+   
     @media only screen and (max-width:901px)
     {
       
@@ -1389,6 +1390,82 @@
         font-size: .4rem !important;
       }
    }
+
+   @media only screen and (max-width:789px)
+   {
+     
+     .rese{
+        width: 45%!important;
+     }
+     .resed{
+       width:18% !important;
+     }
+     .res{
+       margin-left:2rem !important;
+     }
+     .pdfHeight{
+       min-width:9rem;
+     }
+     .fr{
+         font-size: 1rem !important;
+     }
+     .frs{
+         font-size:.9rem !important;
+     }
+     .frf{
+        font-size:.7rem !important;
+     }
+     .frsf{
+        font-size: .5rem !important;
+     }
+     .frsft{
+         font-size: .6rem !important;
+     }
+     .stf{
+       font-size: .3rem !important;
+     }
+     .loc{
+       width:1rem !important;
+       height:1rem !important;
+
+     }
+  }
+
+  @media only screen and (max-width:749px)
+  {
+    
+    .rese{
+       width: 45%!important;
+    }
+    .resed{
+      width:18% !important;
+    }
+    .res{
+      margin-left:2rem !important;
+    }
+    .pdfHeight{
+      min-width:7rem;
+    }
+    .fr{
+        font-size: 1.1rem !important;
+    }
+    .frs{
+        font-size:.8rem !important;
+    }
+    .frf{
+       font-size:.6rem !important;
+    }
+    .frsf{
+       font-size: .6rem !important;
+    }
+    .frsft{
+        font-size: .5rem !important;
+    }
+    .stf{
+      font-size: .3rem !important;
+    }
+ }
+
 
 
       
