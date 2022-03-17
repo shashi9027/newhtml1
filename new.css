@@ -1,0 +1,152 @@
+:root{
+    --btn-font-family: 'Source Sans Pro';
+--btn-font-weight: 600;
+--btn-border-width: 1px;
+--btn-disabled-opacity: 0.65;
+
+--color-golden-yellow: #fcb112;
+--color-golden-yellow-light: #fffbf3;
+--color-golden-yellow-light-10: #f0e3c8;
+--color-golden-yellow-light-20: #fffdd0;
+--color-golden-yellow-light-30: #eecb80;
+--color-golden-yellow-dark: #e0aa36;
+--color-golden-yellow-dark-10: #e39f10;
+--color-golden-yellow-dark-15: #d6960f;
+--color-salmon: #ff8765;
+--color-white: #ffffff;
+--color-black: #000000;
+--color-grey: #f6f6f6;
+--color-greyblue: #7eb7b7;
+--color-charcoal-light-50: #93a3a9;
+--color-charcoal: #264653;
+--color-charcoal-light-10: #25596d;
+--color-charcoal-light-95: #f4f6f6;
+--color-charcoal-light-25: #5c747e;
+--color-charcoal-light-35: #818d92;
+--color-charcoal-light-75: #c9d1d4;
+--color-charcoal-light-85: #dee3e5;
+--color-charcoal-dark: #132329;
+--color-charcoal-dark-75: #0a1215;
+
+--color-persian-green-light-25: #cae7e3;
+--color-persian-green-light-50: #94cec7;
+--color-persian-green-light-75: #cae7e3;
+--color-persian-green: #2a9d8f;
+--color-persian-green-dark-25: #1f766b;
+--color-persian-green-dark-50: #154f47;
+--color-persian-green-dark-75: #0a2724;
+--color-persian-green-dark-95: #264653;
+--color-sky-blue: #67b9b9;
+--color-sky-blue-dark: #5ba2a2;
+--color-sky-blue-light: #a7d5d5;
+--color-dark-blue: #25596d;
+--color-burnt-sienna-light: #f5bcab;
+--color-burnt-sienna: #e76f51;
+--color-burnt-sienna-dark-10: #d06449;
+--color-burnt-sienna-dark-25: #ad533d;
+
+--color-red-light: #f8eae6;
+--color-blue: #85a7d2;
+--color-blue-light: #eef2fa;
+--color-green: #3ea378;
+--color-green-light: #e9faf1;
+--color-blue-dark: #306ab0;
+--greyish-brown: #4a4a4a;
+--color-submarine: #93a3a9;
+--color-pale-grey: #dfeff1;
+--color-brownish-orange: #c96e23;
+
+}
+
+/*header */
+.neighbour-name {
+    font-size: 2rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color:var(--color-persian-green);
+    padding-top:2rem;
+    margin-left: 20%;
+  }
+  .font-circuler-std {
+    font-family: 'DM Sans', sans-serif;
+  }
+  .province-text {
+    font-size: 2rem ;
+    line-height: 1rem;
+    font-weight:500;
+    margin-left: 5%;
+    padding-top: 2rem;
+    
+  }
+  .htext-f-6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .detail{
+      margin-left:14%
+  }
+  .himg{
+      height:4rem;
+      padding-top:1rem;
+  }
+  @media only screen and (max-width:1115px){
+    .neighbour-name {
+        font-size: 1.5rem;
+        padding-top:2rem;
+        margin-left: 15%;
+      }
+      .font-circuler-std {
+        font-family: 'DM Sans', sans-serif;
+      }
+      .province-text {
+        font-size: 1.5rem ;
+        line-height: 1rem;
+        font-weight:500;
+        margin-left: 4%;
+        padding-top: 2rem;
+        
+      }
+      .htext-f-6 {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      .detail{
+          margin-left:15%
+      }
+      .himg{
+          height:4rem;
+          padding-top:1rem;
+      }
+    
+  }
+  @media only screen and (max-width:1028px){
+    .neighbour-name {
+        font-size: 1.5rem !important;
+        padding-top:2rem;
+        margin-left: 8%;
+        padding-left: 3rem;
+      }
+      .font-circuler-std {
+        font-family: 'DM Sans', sans-serif;
+      }
+      .province-text {
+        font-size: 1.5rem ;
+        line-height: 1rem;
+        font-weight:500;
+        margin-left: 4%;
+        padding-top: 2rem;
+        
+      }
+      .htext-f-6 {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      .detail{
+          margin-left:15%
+      }
+      .himg{
+          height:4rem;
+          padding-top:1rem;
+      }
+    
+  }

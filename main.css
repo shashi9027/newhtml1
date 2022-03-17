@@ -93,11 +93,11 @@
       height: 50px !important;
     }
     .neighbour-name{
-      font-size: 1.8rem !important;
+      font-size: 1.6rem !important;
     
     }
     .province-text{
-      font-size: 1.8rem !important;
+      font-size: 1.6rem !important;
       margin-left: .5%;
     }
     .text-f-6{
@@ -112,10 +112,10 @@
   @media only screen and (max-width:938px)
   {
     .neighbour-name{
-      font-size: 1.6rem !important;
+      font-size: 1.5rem !important;
     }
     .province-text{
-      font-size:1.6rem !important;
+      font-size:1.5rem !important;
     }
     .text-f-6{
       font-size: .9rem !important ;
@@ -132,10 +132,10 @@
       height:50px;
     }
     .neighbour-name{
-      font-size: 1.5rem !important;
+      font-size: 1.4rem !important;
     }
     .province-text{
-      font-size:1.5rem !important;
+      font-size:1.4rem !important;
     }
     .text-f-6{
       font-size: .8rem !important ;
@@ -153,10 +153,10 @@
       height:40px;
     }
     .neighbour-name{
-      font-size: 1.4rem !important;
+      font-size: 1.3rem !important;
     }
     .province-text{
-      font-size:1.4rem !important;
+      font-size:1.3rem !important;
     }
     .text-f-6{
       font-size: .7rem !important ;
@@ -215,7 +215,7 @@
     font-weight: 400;
   }
   .text-f-4 {
-    font-size: 0.8rem !important;
+    font-size: 0.8rem ;
   }
   .item{
      
@@ -264,14 +264,156 @@
       font-size:0.7rem !important;
     }
     .ovstxt{
-      font-size: 0.8rem !important;
+      font-size: 0.7rem !important;
     }
     .fa{
-      height: 13px;
-      width:13px;
+      height: 6px;
+      width:6px;
+      padding-left:12px;
+    }
+    .item1{
+      padding-left: 0px !important;;
+    }
+    .bg-primary{
+      min-height: 23rem !important;
+      width: 36% !important;
+    }
+
+  }
+  @media only screen and (max-width:938px)
+  {
+    .ovcl{
+      width:64% !important;
+      
+    }
+    .ovcle{
+      width:100% !important;
+      margin-left: none;
+    }
+    .ovimg{
+      height:25px !important;
+      width:25px !important;
+    }
+    .ovtxt{
+      font-size:0.7rem !important;
+    }
+    .ovstxt{
+      font-size: 0.7rem !important;
+    }
+    .fa{
+     font-size: .7rem !important;
+
+      }
+    .item1{
+      padding-left: 0px !important;
+      width:42% !important;
+    }
+    .bg-primary{
+      min-height: 21rem !important;
+      width:34% !important;
     }
   }
-    
+   
+  @media only screen and (max-width:877px)
+  {
+    .ovcl{
+      width:66% !important;
+      
+    }
+    .ovcle{
+      width:100% !important;
+      margin-left: none;
+    }
+    .ovimg{
+      height:20px !important;
+      width:20px !important;
+    }
+    .ovtxt{
+      font-size:0.65rem !important;
+    }
+    .ovstxt{
+      font-size: 0.65rem !important;
+    }
+    .fa{
+     font-size: .7rem !important;
+
+      }
+    .item1{
+      padding-left: 0px !important;
+      width:42% !important;
+    }
+    .bg-primary{
+      min-height: 19rem !important;
+      width:31% !important;
+    }
+  }
+  @media only screen and (max-width:793px)
+  {
+    .ovcl{
+      width:69% !important;
+      
+    }
+    .ovcle{
+      width:100% !important;
+      margin-left: none;
+    }
+    .ovimg{
+      height:20px !important;
+      width:20px !important;
+    }
+    .ovtxt{
+      font-size:0.65rem !important;
+    }
+    .ovstxt{
+      font-size: 0.65rem !important;
+    }
+    .fa{
+     font-size: .7rem !important;
+
+      }
+    .item1{
+      padding-left: 0px !important;
+      width:42% !important;
+    }
+    .bg-primary{
+      min-height: 17rem !important;
+      width:29% !important;
+    }
+  }
+  @media only screen and (max-width:764px)
+  {
+    .ovcl{
+      width:69% !important;
+      
+    }
+    .ovcle{
+      width:100% !important;
+      margin-left: none;
+    }
+    .ovimg{
+      height:18px !important;
+      width:18px !important;
+    }
+    .ovtxt{
+      font-size:0.55rem !important;
+    }
+    .ovstxt{
+      font-size: 0.55rem !important;
+    }
+    .fa{
+     font-size: .6rem !important;
+
+      }
+    .item1{
+      padding-left: 0px !important;
+      width:42% !important;
+    }
+    .bg-primary{
+      min-height: 17rem !important;
+      width:29% !important;
+    }
+  }
+        
 
 
 
@@ -343,15 +485,177 @@
   }
   #donut_single{
     margin-left:3em;
-    margin-top:-2.5em
+    
   }
- 
+  @media only screen and (max-width:1000px){
+     #donut_single{
+       width:240px;
+       height:240px;
+       margin-left:5rem !important;
 
+     }
+  }
+  @media only screen and (max-width:929px){
+    .fir{
+      width:2.4rem;
+      height:2.4rem;
+    }
+    .mainText{
+      font-size: 1.8rem;
+    }
+    .subtext{
+      font-size:1rem;
+    }
+    .text-f-8-6{
+      font-size: .7rem !important;
+    }
+    .chart-background{
+      height:43vh;
+    }
+    .year{
+      width:38% !important;
+    }
+    .years{
+      font-size:1.1em !important
+    }
+    #donut_single{
+      width:220px;
+      height:220px;
+      margin-left:3rem;
 
- 
+    }
+    
+ }
 
+ @media only screen and (max-width:882px){
+  .fir{
+    width:2.4rem;
+    height:2.4rem;
+  }
+  .mainText{
+    font-size: 1.8rem;
+  }
+  .subtext{
+    font-size:1.5rem;
+  }
+  .text-f-8-6{
+    font-size: .7rem !important;
+  }
+  .chart-background{
+    height:43vh;
+  }
+  .year{
+    width:42% !important;
+  }
+  .years{
+    font-size:1.1em !important
+  }
+  #donut_single{
+    width:200px;
+    height:200px;
+    margin-left:2rem;
+
+  }
+  
+}
+
+@media only screen and (max-width:882px){
+  .fir{
+    width:2.4rem;
+    height:2.4rem;
+  }
+  .mainText{
+    font-size: 1.8rem;
+  }
+  .subtext{
+    font-size:1.5rem;
+  }
+  .text-f-8-6{
+    font-size: .6rem !important;
+  }
+  .chart-background{
+    height:41vh;
+  }
+  .year{
+    width:42% !important;
+  }
+  .years{
+    font-size:1.1em !important
+  }
+  #donut_single{
+    width:180px;
+    height:180px;
+    margin-left:3rem;
+
+  }
+  
+}
+
+@media only screen and (max-width:765px){
+  .fir{
+    width:2.2rem;
+    height:2.2rem;
+  }
+  .mainText{
+    font-size: 1.8rem;
+  }
+  .subtext{
+    font-size:1.5rem;
+  }
+  .text-f-8-6{
+    font-size: .5rem !important;
+  }
+  .chart-background{
+    height:41vh;
+  }
+  .year{
+    width:48% !important;
+  }
+  .years{
+    font-size:1.1em !important
+  }
+  #donut_single{
+    width:150px !important;
+    height:150px !important;
+    margin-left:3rem !important;
+
+  }
+  
+}
+
+@media only screen and (max-width:740px){
+  .fir{
+    width:2.2rem;
+    height:2.2rem;
+  }
+  .mainText{
+    font-size: 1.6rem;
+  }
+  .subtext{
+    font-size:1.3rem;
+  }
+  .text-f-8-6{
+    font-size: .5rem !important;
+  }
+  .chart-background{
+    height:37vh;
+  }
+  .year{
+    width:54% !important;
+  }
+  .years{
+    font-size:1.1em !important
+  }
+  #donut_single{
+    width:100px !important;
+    height:100px !important;
+    margin-left:3rem !important;
+
+  }
 
   
+}
+
   
  
   
@@ -382,74 +686,152 @@
       border-bottom: 4px solid var(--color-persian-green);
       padding-bottom: 0.7rem;
     }
-    @media only screen and (max-width:1094px){
-      
-      .dheading{
-        font-size:.95rem !important;
-      }
-    }
-    @media only screen and (max-width:1067px){
-      
-      .dheading{
-        margin-left: -.8em;
-      
-      }
-      .dem{
-        margin-left: -.8em;
-      }
-    }
-    @media only screen and (max-width:1040px){
-      
-      .meth{
-           width:35% !important;
-           padding-right: none;
-      }
-    }
-    @media only screen and (max-width:1015px){
-      
-      .meth{
-           width:38% !important;
-           padding-right: none;
-      }
-      .lan{
-        margin-left:-1em !important;
-      }
-    }
+
     @media only screen and (max-width:1000px){
-      .dheading{
-        font-size: .85rem !important;
-      }
-      .maintext{
-        font-size:1.8rem !important
-      }
+     .deimg{
+       width:2.2rem !important;
+     }
+     .dheading{
+       font-size: 1rem !important;
+     }
+     .dhimg{
+       height: 2.3rem !important;
+     }
+
+     .maintext{
+       font-size:1.6rem !important;
+     }
+     .dcon{
+       margin-left: -1rem !important;
+     }
     }
 
-    @media only screen and (max-width:928px){
+    @media only screen and (max-width:959px){
       .deimg{
-        width:15%;
+        width:2rem !important;
       }
-      .mainText{
-        font-size: 160% !important;
-      }
-      .subtext{
-        font-size: 160% !important;
+      .dheading{
+        font-size: .8rem !important;
       }
       .dhimg{
-        height:35px !important;
-      }
-      .dhpe{
-        height: 18px !important;
-      }
-      .doimg{
-        height:32px !important;
+        height: 2.2rem !important;
       }
       .maintext{
-        font-size: 1.6rem !important;
+        font-size:1.6rem !important;
       }
+      .dcon{
+        margin-left: -1rem !important;
+      }
+     
+     }
+    
+     @media only screen and (max-width:920px){
+      .deimg{
+        width:2rem !important;
+      }
+      .dheading{
+        font-size: .7rem !important;
+      }
+      .dhimg{
+        height: 2.1rem !important;
+      }
+      .maintext{
+        font-size:1.4rem !important;
+      }
+      .dcon{
+        margin-left: -1rem !important;
+      }
+      .demographics{
+        height:7rem;
+      }
+     }
+     @media only screen and (max-width:854px)
+     {
+       .dem{
+         margin-left: -.2em !important;
+       }
+       .dheading{
+         font-size: .6em !important;
+       }
+     }
+     @media only screen and (max-width:810px)
+     {
+       .dem{
+         margin-left: -.6em !important;
+       }
+       .dheading{
+         font-size: .6em !important;
+       }
+     }
+     @media only screen and (max-width:789px){
+       .demo{
+            font-size: 1.6em !important;
+       }
+       .edu{
+         font-size: 1.3em !important ;
+       }
+      .deimg{
+        width:1.8rem !important;
+      }
+      .dheading{
+        font-size: .6rem !important;
+      }
+      .dhimg{
+        height: 2.1rem !important;
+      }
+      .dhpe{
+        height:1.1rem !important;
+      }
+      .doimg{
+        height:1.6rem  !important;
+      }
+      .maintext{
+        font-size:1.2rem !important;
+      }
+      .dcon{
+        margin-left: -1rem !important;
+      }
+      .demographics{
+        height:7rem;
+      }
+      .dem{
+        margin-left: -.6em !important;
+      }
+      .hou{
+        width:42% !important;
+        margin-left:-1.4em !important;
+      }
+      .edsubtext {
+        font-size: 1.6rem;
+        color: var(--color-persian-green);
+      }
+      
+     }
+     @media only screen and (max-width:758px)
+     {
+
+    
+     .edsubtext {
+      font-size: 1.5rem !important;
+      color: var(--color-persian-green);
     }
+    }
+    @media only screen and (max-width:734px)
+     {
 
+    
+     .edsubtext {
+      font-size: 1.4rem !important;
+      color: var(--color-persian-green);
+    }
+    }
+     @media only screen and (max-width:725px){
+       .dcon{
+         margin-left: -1.8em !important;
+       }
+     }
 
-   
+    
    
 
   /*seconddemographics*/
@@ -478,47 +860,173 @@
       border-right: 1px solid var(--color-charcoal-light-50);
       padding-right: 0.6rem !important;
     }
-    @media only screen and (max-width:1115px){
-      
-     .sdheading{
-       font-size:.95rem !important
-     }
-      
-    }
-    @media only screen and (max-width:1112px){
-      
-     .avg{
-      
-       width:19% !important;
-     }
-     .border-right{
-       padding-right:-8rem !important;
-     }
-     .meth{
-         width:24%;
-     }
     
-       
-    }
     @media only screen and (max-width:1000px){
       .sdheading{
-        font-size:.8rem!important
+         font-size: .8rem !important;
       }
-      .dollar{
-        height:28px;
+      .sdcontent{
+         font-size: .7rem !important;
       }
-      .border-right{
-        padding-right:.1rem !important;
+      .sdsubtext{
+          font-size: .7rem !important;
       }
-      .lani{
-        padding-left:1.4em  !important;
+      .avg{
+         width:19% !important;
       }
-      .lanp{
-        padding-left: 2.7em !important ;
+     .lan{
+       margin-left:-2rem !important;
+     }
+     .secondDemographics{
+       width:100% !important;
+     }
+    }
+      
+    @media only screen and (max-width:923px){
+      .sdheading{
+         font-size: .7rem !important;
       }
-
+      .sdcontent{
+         font-size: .6rem !important;
+      }
+      .sdsubtext{
+          font-size: .6rem !important;
+      }
+      .avg{
+         width:19% !important;
+      }
+     .lan{
+       margin-left:-2rem !important;
+     }
+     .secondDemographics{
+       width:100% !important;
+     }
+     .dollar{
+         width:20px;
+         height:18px;
+     }
+     .sch{
+        width:20px;
+        height:18px;
+     }
+     .car{
+        width:20px;
+        height:22px;
+     }
+     .train{
+       width:20px;
+       height:22px;
+     }
     }
 
+    @media only screen and (max-width:810px){
+      .sdheading{
+         font-size: .7rem !important;
+      }
+      .sdcontent{
+         font-size: .6rem !important;
+      }
+      .sdsubtext{
+          font-size: .6rem !important;
+      }
+      .avg{
+         width:19% !important;
+         padding-right:.1em !important;
+         width:15% !important
+         
+      }
+      .meth{
+        margin-left:-4rem!important;
+      }
+     .lan{
+       margin-right:3rem !important;
+      
+     }
+     .secondDemographics{
+       width:120% !important;
+     }
+     .dollar{
+         width:20px;
+         height:18px;
+     }
+     .sch{
+        width:20px;
+        height:18px;
+     }
+     .car{
+        width:20px;
+        height:22px;
+     }
+     .train{
+       width:20px;
+       height:22px;
+     }
+     .edu{
+       width:10% !important;
+       margin-left: -2rem !important;
+     }
+     .lani{
+       padding-left: .5em !important;
+     }
+     .laned{
+       padding-left: 1.6em !important
+     }
+    }
+      
+    @media only screen and (max-width:756px){
+      .sdheading{
+         font-size: .6rem !important;
+      }
+      .sdcontent{
+         font-size: .6rem !important;
+      }
+      .sdsubtext{
+          font-size: .45rem !important;
+      }
+      .avg{
+         width:19% !important;
+         padding-right:.1em !important;
+         width:15% !important
+         
+      }
+      .meth{
+        margin-left:-4rem!important;
+      }
+     .lan{
+       margin-right:3rem !important;
+      
+     }
+     .secondDemographics{
+       width:120% !important;
+     }
+     .dollar{
+         width:20px;
+         height:18px;
+     }
+     .sch{
+        width:20px;
+        height:18px;
+     }
+     .car{
+        width:20px;
+        height:22px;
+     }
+     .train{
+       width:20px;
+       height:22px;
+     }
+     .edu{
+       width:10% !important;
+       margin-left: -2rem !important;
+     }
+     .lani{
+       padding-left: .5em !important;
+     }
+     .laned{
+       padding-left: 1.6em !important
+     }
+    }
+      
 
     
 
@@ -572,57 +1080,37 @@
         font-size: 0.6rem;
         color: var(--color-charcoal-light-25);
       }
-      @media only screen and (max-width:1084px){
-      
-        .phar{
-          width:32% !important;
-        }
-        .text-f-5{
-          font-size: .9rem !important;
-        }
-          
-      }
-      @media only screen and (max-width:1084px){
-      .helt{
-        width:95%
-      }
-    }
-    @media only screen and (max-width:1015px){
-      .phar{
-      
-        width:34%
-      }
-      .helt{
-        margin-left: 1em !important;
-        width:97% !important;
-      }
-
-
-    }
-    @media only screen and (max-width:1000px){
-      .heading-text{
-        font-size: 1rem !important;
-      }
-      .htcr{
-        height:25px !important
-      }
-      .address-text{
-        font-size:.7rem !important;
-      }
-      .phar{
-        margin-right:2.2em !important;
-        width:36% !important;
-       
-      }
-      .newpad{
-        padding-right:none;
-        width:100%;
-        
+      @media only screen and (max-width:1000px){
+          .phar{
+            margin-left:5% !important;
+          }
+          .hlt{
+            margin-left:5% !important;
+          }
+          .fp{
+            font-size:.8rem !important;
+          }
+          .fps{
+            font-size:.7rem !important;
+            margin-left: 2rem !important;
+          }
+          .fpc{
+            font-size:.8rem !important;
+          }
+          .fpsc{
+            font-size:.7rem !important;
+            margin-left: 7rem !important;
+          }
+          .fph{
+            font-size:.8rem !important;
+          }
+          .fpsh{
+            font-size:.7rem !important;
+            margin-left: 2rem !important;
+          }
       }
       
-
-
-    }
+      
     
       /*elementaryschool*/
      .ssectionHeader {
@@ -701,10 +1189,10 @@
         }
          
        }
-
+     
 
       /*Day care*/
-    /*  .rounded1{
+     .rounded1{
         border-radius: .5rem;
       }
       .dschool-card-height-pdf {
@@ -744,6 +1232,8 @@
       .color-75{
         color:var(--color-charcoal-light-50)
       }
+     
+       
       @media only screen and (max-width:1089px){
       
         .smain-text{
@@ -785,6 +1275,10 @@
          
       }
 
+       
+
+         
+     
        
 
      
