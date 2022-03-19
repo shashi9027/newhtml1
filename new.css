@@ -60,7 +60,7 @@
 
 /*header */
 .neighbour-name {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1rem;
     font-weight: bold;
     color:var(--color-persian-green);
@@ -71,7 +71,7 @@
     font-family: 'DM Sans', sans-serif;
   }
   .province-text {
-    font-size: 2rem ;
+    font-size: 1rem ;
     line-height: 1rem;
     font-weight:500;
     margin-left: 5%;
@@ -79,7 +79,7 @@
     
   }
   .htext-f-6 {
-    font-size: 1.2rem;
+    font-size: .7rem;
     font-weight: 600;
   }
   .detail{
@@ -91,249 +91,8 @@
   }
   .heimg{
     margin-top:1rem;
-    margin-left:4rem;
+    padding-right: 0rem;
   }
-  @media only screen and (max-width:1115px){
-    .neighbour-name {
-        font-size: 1.5rem;
-        padding-top:2rem;
-        margin-left: 8%;
-      }
-      .font-circuler-std {
-        font-family: 'DM Sans', sans-serif;
-      }
-      .province-text {
-        font-size: 1.5rem ;
-        line-height: 1rem;
-        font-weight:500;
-        margin-left: 4%;
-        padding-top: 2rem;
+ 
         
-      }
-      .htext-f-6 {
-        font-size: 1.1rem;
-        font-weight: 600;
-      }
-      .detail{
-          margin-left:15%
-      }
-      .himg{
-          height:4rem;
-          padding-top:1rem;
-      }
-    
-  }
-  @media only screen and (max-width:1083px){
-    .neighbour-name {
-        font-size: 1.5rem !important;
-        padding-top:2rem;
-        margin-left: 6%;
-        padding-left: 3rem;
-      }
-      .font-circuler-std {
-        font-family: 'DM Sans', sans-serif;
-      }
-      .province-text {
-        font-size: 1.5rem ;
-        line-height: 1rem;
-        font-weight:500;
-        margin-left: 4%;
-        padding-top: 2rem;
-        
-      }
-      .htext-f-6 {
-        font-size: 1.1rem;
-        font-weight: 600;
-      }
-      .detail{
-          margin-left:15%
-      }
-      .himg{
-          height:4rem;
-          padding-top:1rem;
-          position:sticky;
-      }
-    
-  }
-
-  @media only screen and (max-width:1062px){
-    .neighbour-name {
-        font-size: 1.4rem !important;
-        padding-top:2rem;
-        margin-left: 5%;
-        padding-left: 3rem;
-      }
-      .font-circuler-std {
-        font-family: 'DM Sans', sans-serif;
-      }
-      .province-text {
-        font-size: 1.4rem ;
-        line-height: 1rem;
-        font-weight:500;
-        margin-left: 4%;
-        padding-top: 2rem;
-        
-      }
-      .htext-f-6 {
-        font-size: 1rem;
-        font-weight: 500;
-      }
-      .detail{
-          margin-left:15%
-      }
-      .himg{
-          height:3.5rem;
-          width:5rem;
-          padding-top:1rem;
-      }
-    
-  }
-  @media only screen and (max-width:988px){
-    .neighbour-name {
-        font-size: 1.2rem !important;
-        padding-top:2rem;
-        margin-left: 5%;
-        padding-left: 2rem;
-      }
-      .font-circuler-std {
-        font-family: 'DM Sans', sans-serif;
-      }
-      .province-text {
-        font-size: 1.4rem ;
-        line-height: 1rem;
-        font-weight:500;
-        margin-left: 4%;
-        padding-top: 2rem;
-        
-      }
-      .htext-f-6 {
-        font-size: 1rem;
-        font-weight: 500;
-      }
-      .detail{
-          margin-left:15%
-      }
-      .himg{
-          height:3.5rem;
-          width:5rem;
-          padding-top:1rem;
-      }
-    
-  }
-  @media only screen and (max-width:928px){
-    .neighbour-name {
-        font-size: 1.2rem !important;
-        padding-top:2rem;
-        margin-left: 5%;
-        padding-left: 1rem;
-      }
-    }
-    @media only screen and (max-width:905px){
-      .neighbour-name {
-          font-size: 1.2rem !important;
-          padding-top:2rem;
-          margin-left: 5%;
-          padding-left: 0rem;
-        }
-      }
-      @media only screen and (max-width:988px){
-        .neighbour-name {
-            font-size: 1rem !important;
-            padding-top:2rem;
-            margin-left: 5%;
-            padding-left: 2rem;
-          }
-          .font-circuler-std {
-            font-family: 'DM Sans', sans-serif;
-          }
-          .province-text {
-            font-size: 1rem ;
-            line-height: 1rem;
-            font-weight:500;
-            margin-left: 4%;
-            padding-top: 2rem;
-            
-          }
-          .htext-f-6 {
-            font-size: .8rem;
-            font-weight: 500;
-            
-          }
-          .detail{
-              margin-left:15%;
-              padding-top:1rem;
-          }
-          .himg{
-              height:3rem;
-              width:4.5rem;
-              padding-top:1rem;
-          }
-        
-      }
-      @media only screen and (max-width:882px){
-        .neighbour-name {
-            font-size: 1rem !important;
-            padding-top:2rem;
-            margin-left: 3%;
-            padding-left: 2rem;
-          }
-        }
-        @media only screen and (max-width:801px){
-          .neighbour-name {
-              font-size: 1rem !important;
-              padding-top:2rem;
-              margin-left: 3%;
-              padding-left: 1rem;
-            }
-          }
-          @media only screen and (max-width:767px){
-            .neighbour-name {
-                font-size: 1rem !important;
-                padding-top:2rem;
-                margin-left: 3%;
-                padding-left: 0rem;
-              }
-            }
-
-            @media only screen and (max-width:745px){
-              .neighbour-name {
-                  font-size: 1rem !important;
-                  padding-top:2rem;
-                  margin-left: 5%;
-                  padding-left: 2rem;
-                }
-                .font-circuler-std {
-                  font-family: 'DM Sans', sans-serif;
-                }
-                .province-text {
-                  font-size: 1rem ;
-                  line-height: 1rem;
-                  font-weight:500;
-                  margin-left: 4%;
-                  padding-top: 2rem;
-                  
-                }
-                .htext-f-6 {
-                  font-size: .8rem;
-                  font-weight: 500;
-                  
-                }
-                .detail{
-                    width:20%;
-                    margin-left:4%;
-                }
-                .himg{
-                    height:3rem;
-                    width:4.5rem;
-                    padding-top:1rem;
-                }
-              
-            }
-            @media only screen and (max-width:724px){
-              .neighbour-name {
-                  font-size: 1rem !important;
-                  padding-top:2rem;
-                  margin-left: 2.5%;
-                  padding-left: 2rem;
-                }
-              }
+     
