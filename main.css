@@ -214,9 +214,7 @@
   .font-weight-400{
     font-weight: 400;
   }
-  .text-f-4 {
-    font-size: 0.8rem ;
-  }
+  
   .item{
      
      padding-left: 10px;
@@ -230,8 +228,8 @@
   }
   
   .text-f-4-5 {
-      font-size: 0.9rem !important;
-  }
+    font-size: 0.9rem !important;
+}
   
   .font-weight-600{
     font-weight:600;
