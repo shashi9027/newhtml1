@@ -9,12 +9,43 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+                ['Effort', 'Amount given'],
+                ['My all', 50],
+                ['work', 11]
+                ,
+            ]);
+
+            var options = {
+                pieHole: 0.7,
+
+                legend: 'none',
+                slices: {
+                    0: { color: 'yellow' },
+                    1: { color: 'blue' },
+
+                },
+                backgroundColor: 'none',
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donut_single'));
+            chart.draw(data, options);
+        }
+    </script>
+</head>
 
 <body>
     <table style="width:100%; height:100%;border:1px solid red">
 
         <!--header-->
         <tr style="margin-left:2rem;margin-right:2rem; margin-top:2rem;border:1px solid black">
+            
             <td>
                 <img class="himg" src="Vector.png">
             </td>
@@ -42,6 +73,7 @@
                 <img style="width:52px; height:52px" class="border rounded-circle heig" crossorigin="anonymous" />
 
             </td>
+            
         </tr>
 
     </table>
@@ -339,92 +371,142 @@
                 <img src="full-report-icons/home.svg">
             </td>
 
-            <td class="headcolor" style="font-size: 30px;padding-left:.5em">Real Estate Data</td>
-            <td class="subhead" style="float:right; font-size:25px; text-align: right;">
+            <td class="headcolor" style="font-size: 25px;padding-left:.5em">Real Estate Data</td>
+            <td class="subhead" style="float:right; font-size:20px; text-align: right;">
                 Statistics
             </td>
         </tr>
     </table>
 
-    <table>
+    <table style="width:100%">
         <tr>
-            <td>
-                <table style="width:50%">
-                    <tr>
-                        <p class="dtext-f-6">Dwelling Type</p>
-                    </tr>
-                    <tr style="border:1px solid red">
+            <td style="width:50%;">
+                <div style=" margin-top:-4rem">
+                    <div width="50%">
+                        <p class="text-f-6">Dwelling Type</p>
+                    </div>
+                    <div style="margin-left:30px; margin-top:-2rem;">
+                        <table width="100%">
+                            <tr>
+                                <td class="content color-charcoal" style="padding-top: 1.5rem;"> Single-detached house
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg-color-persian-green  rtext-f-8-6 text-white"
+                                    style="width:60%;border-top-right-radius:10px ; border-bottom-right-radius:10px; height: .5rem ;">
+                                </td>
+                                <td class="text-f-4 color-charcoal-dark"
+                                    style="min-width: 1.2rem ;font-weight:600 ; padding-left: .6rem;font-size: .7em;">
+                                    60% </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div style="margin-left:30px; margin-top:-1rem">
+                        <table width="100%">
+                            <tr>
+                                <td class="content color-charcoal" style="padding-top: 1.5rem;"> Single-detached house
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg-color-persian-green  rtext-f-8-6 text-white"
+                                    style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
+                                </td>
+                                <td class="text-f-4 color-charcoal-dark"
+                                    style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;font-size: .7em;">
+                                    60% </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div style="margin-left:30px; margin-top:-1rem">
+                        <table width="100%">
+                            <tr>
+                                <td class="content color-charcoal" style="padding-top: 1.5rem;"> Single-detached house
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg-color-persian-green  rtext-f-8-6 text-white"
+                                    style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
+                                </td>
+                                <td class="text-f-4 color-charcoal-dark"
+                                    style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;font-size: .7em; ">
+                                    60% </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div style="margin-left:30px; margin-top:-1rem">
+                        <table width="100%">
+                            <tr>
+                                <td class="content color-charcoal" style="padding-top: 1.5rem;"> Single-detached house
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg-color-persian-green  rtext-f-8-6 text-white"
+                                    style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
+                                </td>
+                                <td class="text-f-4 color-charcoal-dark"
+                                    style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;font-size: .7em;">
+                                    60% </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div style="margin-left:30px; margin-top:-1rem">
+                        <table width="100%">
+                            <tr>
+                                <td class="content color-charcoal" style="padding-top: 1.5rem;"> Single-detached house
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg-color-persian-green  rtext-f-8-6 text-white"
+                                    style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
+                                </td>
+                                <td class="text-f-4 color-charcoal-dark"
+                                    style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;font-size: .7em;">
+                                    60% </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td width="50%">
+                <div class="chart-background " style=" float:right; margin-top:.5rem; border-radius:10px ;">
+                    <table>
+                        <tr>
+                            <div style="font-size:1.2em; font-weight:600;padding-left: .8em; padding-top: .6em;">
+                                Year of construction
+                            </div>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="margin-left: 1em; margin-top: -8.5rem;">
+                                    <tr style="margin-top:1em">
+                                        <td class="button" style="color:white;padding-left: .8em; margin:2px">1.5%</td>
+                                        <td style="font-size:.7rem; padding-left: .2rem;">1960</td>
+                                    </tr>
+                                    <tr style="margin-top:.3em">
+                                        <td class="button" style="color:white;padding-left: .8em; margin:2px">1.5%</td>
+                                        <td style="font-size:.7rem; padding-left: .2rem;">1960</td>
+                                    </tr>
+                                    <tr style="margin-top:.3em">
+                                        <td class="button" style="color:white;padding-left: .8em; margin:2px">1.5%</td>
+                                        <td style="font-size:.7rem; padding-left: .2rem;">1960</td>
+                                    </tr>
+                                    <tr style="margin-top:.3em">
+                                        <td class="button" style="color:white;padding-left: .8em; margin:2px">1.5%</td>
+                                        <td style="font-size:.7rem; padding-left: .2rem;">1960</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <div style="margin-top:-1em">
+                                    <div id="donut_single" style="width: 280px; height: 280px;"></div>
 
+                                </div>
+                            </td>
+                        </tr>
 
-                        <div class="content color-charcoal" style="padding-top: 1.5rem;">
-                            Single-detached house
-                        </div>
+                    </table>
 
-                        <div class="bg-color-persian-green  rtext-f-8-6 text-white"
-                            style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
-                        </div>
-                        <span class=" text-f-4 color-charcoal-dark     "
-                            style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;">
-                            60%
-                        </span>
-                    </tr>
-                    <tr>
-                        <div class="content color-charcoal" style="padding-top: 1.5rem;">
-                            Single-detached house
-                        </div>
-
-                        <div class="bg-color-persian-green  rtext-f-8-6 text-white"
-                            style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
-                        </div>
-                        <span class=" text-f-4 color-charcoal-dark     "
-                            style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;">
-                            60%
-                        </span>
-
-                    </tr>
-                    <tr>
-                        <div class="content color-charcoal" style="padding-top: 1.5rem;">
-                            Single-detached house
-                        </div>
-
-                        <div class="bg-color-persian-green  rtext-f-8-6 text-white"
-                            style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
-                        </div>
-                        <span class=" text-f-4 color-charcoal-dark     "
-                            style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;">
-                            60%
-                        </span>
-
-                    </tr>
-                    <tr>
-                        <div class="content color-charcoal" style="padding-top: 1.5rem;">
-                            Single-detached house
-                        </div>
-
-                        <div class="bg-color-persian-green  rtext-f-8-6 text-white"
-                            style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
-                        </div>
-                        <span class=" text-f-4 color-charcoal-dark     "
-                            style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;">
-                            60%
-                        </span>
-
-                    </tr>
-                    <tr>
-                        <div class="content color-charcoal" style="padding-top: 1.5rem;">
-                            Single-detached house
-                        </div>
-
-                        <div class="bg-color-persian-green  rtext-f-8-6 text-white"
-                            style="width:60%;border-top-right-radius:25px ; border-bottom-right-radius:25px; height: 1rem ;">
-                        </div>
-                        <span class=" text-f-4 color-charcoal-dark     "
-                            style="min-width: 1.2rem ;font-weight:700 ; padding-left: .6rem;">
-                            60%
-                        </span>
-
-                    </tr>
-                </table>
+                </div>
             </td>
         </tr>
     </table>
@@ -435,13 +517,13 @@
                 <img src="full-report-icons/peoples.svg" width="30px">
             </td>
 
-            <td class="headcolor" style="font-size: 20px;padding-left:.5em">Demographics</td>
-            <td class="subhead" style="float:right; font-size:15px">
+            <td class="headcolor" style="font-size: 25px;padding-left:.5em">Demographics</td>
+            <td class="subhead" style="float:right; font-size:20px">
                 Education Employment & Transportation
             </td>
         </tr>
     </table>
-    
+
     <table class="demographics" style="width: 100%; table-layout: fixed;">
         <tr>
             <td style="width: 48%;">
@@ -451,16 +533,17 @@
                             <div style="margin-top:-1rem ;">
                                 <p class="dheading">Total Households</p>
                                 <div style="margin-top:-1rem">
-                                    <img src="full-report-icons/home.svg" style=" width:30px">
-                                    <span class="maintext" style="margin-top: -2rem;" >998</div>
+                                    <img src="full-report-icons/home.svg" style=" width:35px">
+                                    <span class="maintext" style="margin-top: -2rem;">998
                                 </div>
+                            </div>
                             </div>
                         </td>
                         <td style="width: 16%;">
                             <div style="margin-top:-1rem ;">
                                 <p class="dheading ">Population</p>
                                 <div style="margin-top:-1rem">
-                                    <img src="full-report-icons/peoples.svg" style="width:25px">
+                                    <img src="full-report-icons/peoples.svg" style="width:30px">
                                     <span class="maintext">2,563</span>
                                 </div>
                             </div>
@@ -469,7 +552,7 @@
                             <div style="margin-top:-1rem ;">
                                 <p class="dheading">Owned</p>
                                 <div style="margin-top:-1rem">
-                                    <img src="full-report-icons/owned.svg" style="width:25px">
+                                    <img src="full-report-icons/owned.svg" style="width:30px">
                                     <span class="maintext">88.9%</span>
                                 </div>
                             </div>
@@ -478,7 +561,7 @@
                             <div style="margin-top:-1rem ;">
                                 <p class="dheading">Rented</p>
                                 <div style="margin-top:-1rem">
-                                    <img src="full-report-icons/rent.svg" style="width:25px">
+                                    <img src="full-report-icons/rent.svg" style="width:30px">
                                     <span class="maintext">11.1%</span>
                                 </div>
                             </div>
@@ -489,123 +572,131 @@
             </td>
             <td style="width: 24%;margin-right:2rem">
                 <div style="width:80%">
-                <p class="dheading" style="margin-bottom:1px; margin-top:1rem">Households with kids</p>
-                <div class="d-flex">
-                    <div class="py-3 pl-1 text-white" style="background-color: #2a9d8f; border-top-left-radius: .4em; border-bottom-left-radius: .4em;
+                    <p class="dheading" style="margin-bottom:1px; margin-top:.6rem">Households with kids</p>
+                    <div class="d-flex">
+                        <div class=" text-white" style="background-color: #2a9d8f; border-top-left-radius: .4em; border-bottom-left-radius: .4em; width:7rem;height:1.5rem;
                 width:49.6%;"></div>
-                    <div class="py-3  pl-1 text-white rounded-right " style=" background-color: #fcb112;;
+                        <div class=" text-white " style=" background-color: #fcb112;;
                 width: 50.4%;
               
                 border-top-right-radius: .4em; border-bottom-right-radius: .4em;
                 
                 "></div>
-                </div>
+                    </div>
 
-                <span class="dot" style="background-color:#2a9d8f; "></span>
-                <span style="font-size:.7rem; font-weight:500">have kids 49.6%</span>
-                <span class="dot" style="background-color: #E9C46A ;"></span>
-                <span style="font-size:.7rem; font-weight:500">no kids 50.4%</span>
+                    <span class="dot" style="background-color:#2a9d8f; "></span>
+                    <span style="font-size:.7rem; font-weight:500">have kids 49.6%</span>
+                    <span class="dot" style="background-color: #E9C46A ;"></span>
+                    <span style="font-size:.7rem; font-weight:500">no kids 50.4%</span>
                 </div>
             </td>
         </tr>
     </table>
     <table style="width:100%">
         <tr>
-            <td class="border-right"  style=" height:8rem" width="20%">
-                <table  >
+            <td class="border-right" style=" height:6rem" width="16%">
+                <table style="margin-top: -2rem;">
                     <tr>
-                        <p class="sdheading">Avg. Household Income</p>
+                        <td class="sdheading">Avg. Household Income</td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="dollar" src="full-report-icons/dollarsign.svg"
+                            <div><img class="dollar" src="full-report-icons/dollarsign.svg"
                                 style="filter:contrast(0%) brightness(20%)" width="20px" height="20px">
+                                <span class="sdcontent" style="padding-left:1rem">108,164</span>
+                            </div>
+                           
                         </td>
-                        <td style="padding-left: 2rem;">
-                            <p class="sdcontent">108,164</p>
-                        </td>
+                       
                     </tr>
-                    
-                    <tr >
-                        <p class="sdsubtext">Household Income</p>
+
+                    <tr>
+                        <td class="sdsubtext">Household Income</td>
                     </tr>
-                   
+
                 </table>
             </td>
-            <td class="border-right" style="height:8rem;" width="15%  ">
-                <table >
+            <td class="border-right" style="height:6rem;" width="17%  ">
+                <table style="margin-left:2rem ;margin-top:-2rem">
                     <tr style="padding-left: 1rem;">
-                        <p class="sdheading">Education</p>
+                        <td class="sdheading">Education</td>
                     </tr>
                     <tr>
                         <td>
+                            <div>
                             <img class="dollar" src="full-report-icons/school.svg"
                                 style="filter:contrast(0%) brightness(20%)" width="20px" height="20px">
+                            <span class="sdcontent" style="padding-left:1rem">36.8%</span>
+                            </div>
                         </td>
-                        <td style="padding-left:2rem">
-                            <p class="sdcontent">36.8%</p>
-                        </td>
+                       
+                           
+                        
+
+                    <tr>
+                        <td class="sdsubtext">University degree</td>
                     </tr>
-                    
-                    <tr >
-                        <p class="sdsubtext">University degree</p>
-                    </tr>
-                   
+
                 </table>
             </td>
             <td class="border-right" style="height:8rem" width="25%">
-                <table>
+                <table style="margin-left:1rem ;margin-top:-2rem" >
                     <tr>
-                        <p class="sdheading">Method of Travel to work</p>
+                        <td class="sdheading">Method of Travel to work</p>
                     </tr>
                     <tr>
-                        
-                        
-                          <td>
-                              <div>
+
+
+                        <td > 
+                            <div style="margin-top:-1rem">
+                                
                                 <img class="dollar" src="full-report-icons/car.svg"
-                                style="filter:contrast(0%) brightness(20%)" width="20px" height="20px">
+                                    style="filter:contrast(0%) brightness(20%)" width="20px" height="20px">
                                 <span class="sdcontent" style="padding-left:1rem">75.6%</span>
-                                <span>
+                                
+                                
+                                <span style=" margin-left:2rem" >
                                     <img class="dollar" src="full-report-icons/train.svg"
-                                style="filter:contrast(0%) brightness(20%)" width="20px" height="20px">
-                                <span class="sdcontent" style="padding-left:1rem">20.4%</span>
+                                        style="filter:contrast(0%) brightness(20%); margin-left:rem" width="20px" height="20px">
+                                    <span class="sdcontent" style="margin-left:rem">20.4%</span>
                                 </span>
-                              </div>
-                              
-                               
-                          </td>
-                          <td >
-                            
-                          </td>
-                        
+                            </div>
+
+
+                        </td>
+                        <td>
+
+                        </td>
+
                     </tr>
-                    
-                    <tr >
-                        <p class="sdsubtext">Household Income</p>
+
+                    <tr>
+                        <td class="sdsubtext">Travel to work by car</td> <td class="sdsubtext" style="margin-left:-3rem ;">Travel to work by Public Transit</td>
                     </tr>
-                   
+
                 </table>
             </td>
-            <td class="border-right"style=" height:8rem" width="20%">
-                <table>
+            <td class="border-right" style=" height:8rem" width="20%">
+                <table style="margin-left:1rem; margin-top: -2rem;">
                     <tr>
-                        <p class="sdheading">Avg. Household Income</p>
+                        <td class="sdheading">Avg. Household Income</td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="dollar" src="full-report-icons/dollarsign.svg"
+                            <div>
+                                <img class="dollar" src="full-report-icons/dollarsign.svg"
                                 style="filter:contrast(0%) brightness(20%)" width="20px" height="20px">
+                                <span class="sdcontent" style="padding-left:1rem">108,164</span>
+                            </div>
+                            
                         </td>
-                        <td >
-                            <p class="sdcontent">108,164</p>
-                        </td>
+                        
                     </tr>
-                    
-                    <tr >
-                        <p class="sdsubtext">Household Income</p>
+
+                    <tr>
+                        <td class="sdsubtext">Household Income</td>
                     </tr>
-                   
+
                 </table>
             </td>
         </tr>
@@ -618,7 +709,7 @@
             <td class="headcolor" style="font-size: 30px; padding-left:15px;">Healthcare</td>
         </tr>
     </table>
-    
+
     <table style="width: 100%; table-layout: fixed;">
         <tr>
             <td style="width: 20%; padding-right:10rem">
@@ -630,9 +721,9 @@
                         </tr>
                     </table>
                     <div class="hltbor" style=" border-radius: 10px;">
-                        
-                        <table>
-                            <tr   style=" border-radius: 10px;">
+
+                        <table style="margin: 5px;">
+                            <tr style=" border-radius: 10px;">
                                 <td style="width: 41%;">
                                     <p class="heading-text">Laurin
                                         Optometry</p>
@@ -656,7 +747,7 @@
                         </table>
                     </div>
                     <div class="hltbor" style=" border-radius: 10px;">
-                        <table>
+                        <table style="margin: 5px;">
                             <tr>
                                 <td style="width: 41%;">
                                     <p class="heading-text">Laurin
@@ -691,7 +782,7 @@
                         </tr>
                     </table>
                     <div class="hltbor" style=" border-radius: 10px;">
-                        <table>
+                        <table style="margin: 5px;">
                             <tr>
                                 <td style="width: 41%;">
                                     <p class="heading-text">Laurin
@@ -716,7 +807,7 @@
                         </table>
                     </div>
                     <div class="hltbor" style=" border-radius: 10px;">
-                        <table>
+                        <table style="margin: 5px;">
                             <tr>
                                 <td style="width: 41%;">
                                     <p class="heading-text">Laurin
@@ -750,8 +841,8 @@
                             <td class="headcolor hsth" style="text-align: right;">10 More</td>
                         </tr>
                     </table>
-                    <div class="hltbor"style=" border-radius: 10px;">
-                        <table>
+                    <div class="hltbor" style=" border-radius: 10px;">
+                        <table style="margin: 5px;">
                             <tr>
                                 <td style="width: 41%;">
                                     <p class="heading-text">Laurin
@@ -776,7 +867,7 @@
                         </table>
                     </div>
                     <div class="hltbor" style=" border-radius: 10px;">
-                        <table>
+                        <table style="margin: 5px;">
                             <tr>
                                 <td style="width: 41%;">
                                     <p class="heading-text">Laurin
@@ -812,7 +903,7 @@
             <td style="font-size: 30px; padding-left: 1rem;">Schools</td>
         </tr>
     </table>
-    
+
     <table style="width: 100%; table-layout: fixed;">
         <tr>
             <td class="setext-f-6" style="width: 30%;">Elementary</td>
@@ -823,7 +914,8 @@
     <table style="width: 100%; table-layout: fixed; ">
         <tr>
             <td style="width: 15%;border-spacing: 40px;">
-                <div class="border-light-75" style="padding:10px; border-radius: 10px;margin-right:20px; margin-left:20px">
+                <div class="border-light-75"
+                    style="padding:10px; border-radius: 10px;margin-right:20px; margin-left:20px">
                     <span class="dot"></span>
                     <span class="dottxt">French</span>
                     <span class="dot"></span>
@@ -951,10 +1043,11 @@
     <p class=" setext-f-6">Secondary</p>
     <table style="width: 80%; table-layout: fixed;">
         <tr>
-            <td  style="width: 10%">
+            <td style="width: 10%">
 
 
-                <div class="border-persian bg-color-persian-green-light-25 " style="padding:10px; border-radius: 10px;margin-right:20px; margin-left:20px">
+                <div class="border-persian bg-color-persian-green-light-25 "
+                    style="padding:10px; border-radius: 10px;margin-right:20px; margin-left:20px">
                     <span class="dot"></span>
                     <span class="dottxt">French</span>
                     <span class="dot"></span>
@@ -986,7 +1079,8 @@
             </td>
 
             <td class="" style="width: 10%">
-                <div class="border-persian bg-color-persian-green-light-25" style="padding:10px; border-radius: 10px;margin-right:20px;">
+                <div class="border-persian bg-color-persian-green-light-25"
+                    style="padding:10px; border-radius: 10px;margin-right:20px;">
                     <span class="dot"></span>
                     <span class="dottxt">French</span>
                     <span class="dot"></span>
@@ -1058,7 +1152,7 @@
             <td class="dsubtext" style="font-size: 30px; width: 55%; text-align: right;">7 more</td>
         </tr>
     </table>
-    
+
     <table style="width: 100%; table-layout: fixed;margin:15px">
         <tr>
             <td style="width: 21%">
@@ -1199,10 +1293,10 @@
                         <td class="dsubtext" style="font-size: 30px; width: 55%; text-align: right;">7 more</td>
                     </tr>
                 </table>
-                
+
                 <table style="width:50%;">
                     <tr>
-                        <td class="border-right-gc"style="width:30%; padding-left: 30px; ">
+                        <td class="border-right-gc" style="width:30%; padding-left: 30px; ">
                             <table class='pdfHeight  '>
                                 <tr>
                                     <td class=" color-75  gtext-f-4 font-weight-400">
@@ -1223,8 +1317,8 @@
                             </table>
 
                         </td>
-                        <td class="border-bottom-gc"style="width:30%; padding-left:30px">
-                            <table class='pdfHeight  ' >
+                        <td class="border-bottom-gc" style="width:30%; padding-left:30px">
+                            <table class='pdfHeight  '>
                                 <tr>
 
                                     <td class=" color-75  gtext-f-4 font-weight-400">
@@ -1249,7 +1343,7 @@
                             </table>
                         </td>
                     </tr>
-                     <tr>
+                    <tr>
                         <td class="border-top-gc" style="width:30%; padding-left:30px;">
                             <table class='pdfHeight  '>
                                 <tr>
@@ -1310,10 +1404,10 @@
                         <td class="dsubtext" style="font-size: 30px; width: 55%; text-align: right;">7 more</td>
                     </tr>
                 </table>
-                
+
                 <table style="width:50%;">
                     <tr>
-                        <td class="border-right-gc"style="width:30%; padding-left: 30px; ">
+                        <td class="border-right-gc" style="width:30%; padding-left: 30px; ">
                             <table class='pdfHeight  '>
                                 <tr>
                                     <td class=" color-75  gtext-f-4 font-weight-400">
@@ -1334,8 +1428,8 @@
                             </table>
 
                         </td>
-                        <td class="border-bottom-gc"style="width:30%; padding-left:30px">
-                            <table class='pdfHeight  ' >
+                        <td class="border-bottom-gc" style="width:30%; padding-left:30px">
+                            <table class='pdfHeight  '>
                                 <tr>
 
                                     <td class=" color-75  gtext-f-4 font-weight-400">
@@ -1360,7 +1454,7 @@
                             </table>
                         </td>
                     </tr>
-                     <tr>
+                    <tr>
                         <td class="border-top-gc" style="width:30%; padding-left:30px;">
                             <table class='pdfHeight  '>
                                 <tr>
@@ -1411,8 +1505,8 @@
                     </tr>
                 </table>
             </td>
-            
-            
+
+
         </tr>
 
     </table>

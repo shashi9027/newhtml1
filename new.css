@@ -67,21 +67,21 @@
 
 /*header */
 .neighbour-name {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1rem;
     font-weight: bold;
-    
+    color:#2a9d8f;
     padding-top:2rem;
-    margin-left: 10%;
+    margin-left: 12%;
   }
   .font-circuler-std {
     font-family: 'DM Sans', sans-serif;
   }
   .province-text {
-    font-size: 1rem ;
+    font-size: 1.2rem ;
     line-height: 1rem;
     font-weight:500;
-    margin-left: 5%;
+    margin-left: -10%;
     padding-top: 2rem;
     display: table-cell;
     
@@ -113,16 +113,16 @@
         
 /*overview*/
 .Otext-f-4 {
-  font-size: 0.4rem ;
+  font-size: 0.7rem ;
 } 
 
 .Otext-f-4-5 {
-  font-size: 0.45rem ;
+  font-size: 0.8rem ;
   font-weight:600;
 }
 
 .otxt{
-  padding-left:.8rem;
+  padding-left:.9rem;
   font-weight: 400
 }
 .fa{
@@ -133,26 +133,39 @@
   padding-left: 10px;
 }
 /*Real */
-.dtext-f-6 {
-  font-size: 1.2rem ;
+.text-f-6 {
+  font-size: 1rem ;
   font-weight: 600;
 }
 .color-charcol{
   color:var(--color-charcoal);
 
 }
+
 .content {
-  font-size: 0.35rem;
+  font-size: .6rem;
   color: var(--color-charcoal-light-50);
 }
 .bg-color-persian-green{
   background-color: var(--color-persian-green);
 }
 .rtext-f-8-6 {
-  font-size: 0.86rem !important;
+  font-size: 0.5rem !important;
 }
 .color-charcoal-dark{
   color:var(--color-charcoal)
+}
+.chart-background {
+  background: #f8ddae;
+}
+.button{
+  width:50px;
+  height:25px;
+  background-color: #0a2724;
+  border-radius: 7px;
+  padding: 3px;
+  font-size:10px;
+
 }
 /*sd*/
 .sdheading {
@@ -168,7 +181,7 @@
   color: var(--color-charcoal-light-50);
 }
 .border-right {
-  border-right: 1px solid var(--color-charcoal-light-50);
+  border-right: 2px solid var(--color-charcoal-light-50);
   padding-right: 0.6rem !important;
 }
 
@@ -177,14 +190,14 @@
   color:#2a9d8f
 }
 .dheading {
-  font-size: .5rem;
+  font-size: .8rem;
   color: var(--color-charcoal);
   font-weight: 500;
 
 }
 
 .maintext {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #2a9d8f;
   font-weight: bold;
   padding-left: .5em;
@@ -281,7 +294,7 @@
 }
 
 /*groceries*/
-.pdfHeight {
+      .pdfHeight {
         min-height: 10rem;
         min-width:16rem
       }
