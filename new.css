@@ -169,15 +169,15 @@
 }
 /*sd*/
 .sdheading {
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .sdcontent {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 .sdsubtext {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: var(--color-charcoal-light-50);
 }
 .border-right {
@@ -190,14 +190,14 @@
   color:#2a9d8f
 }
 .dheading {
-  font-size: .8rem;
+  font-size: 1rem;
   color: var(--color-charcoal);
   font-weight: 500;
 
 }
 
 .maintext {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #2a9d8f;
   font-weight: bold;
   padding-left: .5em;
